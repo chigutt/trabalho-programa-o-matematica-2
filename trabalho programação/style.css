@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Tilt+Prism&display=swap');
+
+:root{
+    --fonte--primaria: 'Tilt Prims' , sans-serif;
+    --fonte--secundaria: 'monospace' , sans-serif;
+    --fonte--terciaria: 'sans-serif' 
+}
+
+body{
+    background-color: black;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    text-align: end;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 535;
+    padding: 20px 0; /*cima direta baixo esquerda*/
+    text-decoration: none;
+    align-items: center;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.cabecalho{
+    color: white;
+    text-align: center;
+    height: 100px;
+    width: 500px;
+}
+
+.texto{
+    color: white;
+    font-size: 15px;
+    font-family: var(--fonte--secundaria);
+    border-radius: 100;
+    text-align: center;
+    display: 100px;
+}
+
+.cabecalho2{
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 500px;
+}
+
+.quadrado{
+    border-radius: 40px;
+    background-color: rgb(175, 124, 29);
+}
